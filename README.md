@@ -10,9 +10,9 @@
   - [**_Demo video_**](#demo-video)
   - [**_The architecture_**](#the-architecture)
   - [**_Long description_**](#long-description)
-    - [**_what is GRAB SCRAP_**](#what-is-grab-scrap)
-    - [**_What problems it solves_**](#circular-economy)
-    - [**_Benefits_**](#benefits)
+    - [**_Introduction_**](#introduction)
+    - [**_Circular Economy_**](#circular-economy)
+    - [**_Grab Scrap_**](#grabs-crap)
   - [**_Project roadmap_**](#project-roadmap)
   - [**_Built with_**](#built-with)
   - [**_Authors_**](#authors)
@@ -51,9 +51,9 @@ As this Circularity shouldn’t be limited to one industry we have created an ap
 
 ## _Built with_
 
-- [**IBM Cloudant**](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [**Android**](https://maven.apache.org/) - Dependency management
-- [**Google Sheets API**](https://maven.apache.org/) - Dependency management
+- [**IBM Cloudant**](https://cloud.ibm.com/docs/appid) 
+- [**Android Studio**](https://developer.android.com/docs) 
+- [**Google Sheets API**](https://developers.google.com/sheets/api/quickstart/apps-script) 
 
 ## _Authors_
 
