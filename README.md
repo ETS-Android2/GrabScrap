@@ -54,6 +54,7 @@ As this Circularity shouldn’t be limited to one industry we have created an ap
 - [**IBM Cloudant**](https://cloud.ibm.com/docs/appid) 
 - [**Android Studio**](https://developer.android.com/docs) 
 - [**Google Sheets API**](https://developers.google.com/sheets/api/quickstart/apps-script) 
+- [**App Script**](https://developers.google.com/apps-script/reference/document) 
 
 ## _Authors_
 
