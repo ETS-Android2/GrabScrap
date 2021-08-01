@@ -28,7 +28,7 @@ We created an application called Grab Scrap that serves as a platform for people
 
 # _The architecture_
 
-![The architecture](https://raw.githubusercontent.com/anonymous-me236/Grab_Scrap/main/ARCHITECTURE.jpg)
+![The architecture](https://raw.githubusercontent.com/CodeFellas2021/GrabScrap/main/Architecture.jpeg)
 
 
 # _Long description_
