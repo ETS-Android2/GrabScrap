@@ -66,5 +66,5 @@ As this Circularity shouldn’t be limited to one industry we have created an ap
 - [**_Shakthi A S_**](https://github.com/shakthi-26)
 - [**_Sowmya V_**](https://github.com/vsowmyasv)
 - [**_Dincy V D_**](https://github.com/Dincy89)
-- [**_Harish Kumar R J_**](https://github.com/anonymous-me236)
+- [**_Harish Kumar R J_**](https://github.com/Harish-Kumar-R-J)
 - [**_Gokul R_**](https://github.com/gokul2507)
