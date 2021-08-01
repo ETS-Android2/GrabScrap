@@ -15,6 +15,7 @@
     - [**_Grab Scrap_**](#grabs-crap)
   - [**_Solution roadmap_**](#solution-roadmap)
   - [**_Built with_**](#built-with)
+  - [**_User Guide_**](#user-guide)
   - [**_Authors_**](#authors)
 
 # _Short description_
@@ -55,6 +56,10 @@ As this Circularity shouldn’t be limited to one industry we have created an ap
 - [**Android Studio**](https://developer.android.com/docs) 
 - [**Google Sheets API**](https://developers.google.com/sheets/api/quickstart/apps-script) 
 - [**App Script**](https://developers.google.com/apps-script/reference/document) 
+
+## _User Guide_
+
+![Roadmap](https://github.com/CodeFellas2021/GrabScrap/blob/main/User%20Guide.pdf)
 
 ## _Authors_
 
