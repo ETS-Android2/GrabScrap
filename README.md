@@ -13,7 +13,7 @@
     - [**_Introduction_**](#introduction)
     - [**_Circular Economy_**](#circular-economy)
     - [**_Grab Scrap_**](#grabs-crap)
-  - [**_Project roadmap_**](#project-roadmap)
+  - [**_Solution roadmap_**](#solution-roadmap)
   - [**_Built with_**](#built-with)
   - [**_Authors_**](#authors)
 
@@ -47,7 +47,7 @@ As this Circularity shouldn’t be limited to one industry we have created an ap
 
 ## _Project roadmap_
 
-![Roadmap](https://raw.githubusercontent.com/anonymous-me236/Grab_Scrap/main/SOLUTION_ROADMAP.jpeg)
+![Roadmap](https://raw.githubusercontent.com/CodeFellas2021/GrabScrap/main/Solution%20Roadmap.jpeg)
 
 ## _Built with_
 
