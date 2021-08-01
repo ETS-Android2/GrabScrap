@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/product_name"-->
+<!--            android:layout_width="393dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textAppearance="?android:textAppearanceLarge"-->
+<!--            tools:text="TextView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/p_price"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textAppearance="?android:textAppearanceMedium"-->
+<!--            tools:text="TextView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/p_description"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textAppearance="?android:textAppearanceMedium"-->
+<!--            tools:text="TextView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/p_address"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textAppearance="?android:textAppearanceMedium"-->
+<!--            tools:text="TextView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/p_contact"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textAppearance="?android:textAppearanceMedium"-->
+<!--            tools:text="TextView" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/constraint_2"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        fresco:layout_constraintEnd_toEndOf="parent"
+        fresco:layout_constraintStart_toStartOf="parent"
+        fresco:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/row_view_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#dddddd"
+            fresco:layout_constraintBottom_toBottomOf="@+id/constraint_2"
+            fresco:layout_constraintHeight_percent="0.90"
+            fresco:layout_constraintStart_toStartOf="@+id/constraint_2"
+            fresco:layout_constraintTop_toTopOf="@+id/constraint_2"
+            fresco:layout_constraintWidth_percent="0.31" />
+
+        <TextView
+            android:id="@+id/row_view_prod_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#dddddd"
+            android:fontFamily="@font/nunito_regular"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            fresco:layout_constraintHeight_percent="0.20"
+            fresco:layout_constraintWidth_percent="0.62"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintStart_toEndOf="@+id/row_view_image"
+            fresco:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/row_view_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            fresco:layout_constraintHeight_percent="0.20"
+            fresco:layout_constraintWidth_percent="0.62"
+            android:background="#dddddd"
+            android:fontFamily="@font/nunito_regular"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintBottom_toTopOf="@id/row_view_desc"
+            fresco:layout_constraintStart_toEndOf="@+id/row_view_image"
+            fresco:layout_constraintTop_toBottomOf="@+id/row_view_prod_name" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/row_view_address"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:fontFamily="@font/meriendaregular"-->
+<!--            android:background="#dddddd"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            fresco:layout_constraintHeight_percent="0.20"-->
+<!--            fresco:layout_constraintStart_toEndOf="@+id/row_view_image"-->
+<!--            fresco:layout_constraintTop_toBottomOf="@+id/row_view_price"-->
+<!--            fresco:layout_constraintWidth_percent="0.60" />-->
+
+        <TextView
+            android:id="@+id/row_view_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="30dp"
+            fresco:layout_constraintHeight_percent="0.20"
+            fresco:layout_constraintWidth_percent="0.62"
+            android:background="#dddddd"
+            android:fontFamily="@font/nunito_light"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintTop_toBottomOf="@+id/row_view_price"
+            fresco:layout_constraintStart_toEndOf="@+id/row_view_image"
+            fresco:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="60dp">
+
+            <ImageButton
+                android:id="@+id/edit_image"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_below="@+id/prod_reg"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/add_pic"
+                android:layout_centerHorizontal="true"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit/Delete"
+                android:textColor="@color/black"
+                android:fontFamily="@font/rubik_bold"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:id="@+id/prod_reg"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_pname2"
+                app:errorEnabled="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/edit_image"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                app:helperText="required*">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_pname"
+                    android:enabled="false"
+                    android:fontFamily="@font/nunito_regular"
+                    android:hint="Product Name"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_price2"
+                android:layout_below="@+id/edit_pname2"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                app:helperText="required*">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_price"
+                    android:inputType="number"
+                    android:enabled="false"
+                    android:fontFamily="@font/nunito_regular"
+                    android:hint="Price"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_desc2"
+                android:layout_below="@+id/edit_price2"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                app:helperText="required*">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_desc"
+                    android:enabled="false"
+                    android:fontFamily="@font/nunito_regular"
+                    android:hint="Description"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_address2"
+                android:layout_below="@+id/edit_desc2"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                app:helperText="required*">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_address"
+                    android:enabled="false"
+                    android:fontFamily="@font/nunito_regular"
+                    android:hint="Address"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_contact2"
+                android:layout_below="@+id/edit_address2"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                app:counterEnabled="true"
+                app:helperText="required*">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_contact"
+                    android:enabled="false"
+                    android:inputType="number"
+                    android:fontFamily="@font/nunito_regular"
+                    android:hint="Contact"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:layout_alignParentBottom="true">
+
+
+        <ImageButton
+            android:id="@+id/edit_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingStart="100dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/delete" />
+
+        <ImageButton
+            android:id="@+id/edit_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="30dp"
+            android:paddingEnd="100dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/edit" />
+    </LinearLayout>
+</RelativeLayout>
