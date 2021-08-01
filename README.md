@@ -59,7 +59,7 @@ As this Circularity shouldn’t be limited to one industry we have created an ap
 
 ## _User Guide_
 
-![Roadmap](https://github.com/CodeFellas2021/GrabScrap/blob/main/User%20Guide.pdf)
+![User_Guide](https://github.com/CodeFellas2021/GrabScrap/blob/main/User%20Guide.pdf)
 
 ## _Authors_
 
