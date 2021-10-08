@@ -20,7 +20,7 @@
 
 # _Short description_
 
-We created an android application called Grab Scrap that serves as a platform for people from many sectors to interact and share information about recyclable waste they have. 
+We created an android application called Grab Scrap that serves as a platform for people from many sectors to interact and share information about recyclable waste they have.  
 
 
 # _Demo video_
